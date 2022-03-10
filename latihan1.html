@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tugas 9 Javacsript</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- ini baris pertama -->
+        <div class="row">
+            <div class="col-md-12">
+                <!----------- awal carousel ----------->
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/cyberpunk.jpg" class="d-block w-100" alt="..." height="520px">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/cyberpunk1.jpg" class="d-block w-100" alt="..." height="520px">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/cyberpunk2.jpg" class="d-block w-100" alt="..." height="520px">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                </div>
+                <!----------- akhir carousel ---------->
+            </div>
+        </div>
+        <!-- ini baris kedua -->
+        <div class="row">
+            <div class="col-md-12">
+                <!-- -------awal navbar--------- -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+
+                        <a class="navbar-brand" href="#"><img src="images/logo.png" height="55px" /></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+
+                        <div class="collapse navbar-collapse" id="navbarColor03">
+                            <ul class="navbar-nav me-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Home
+                              <span class="visually-hidden">(current)</span>
+                            </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control me-sm-2" type="text" placeholder="Search">
+                                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+                <!-- -------akhir navbar--------- -->
+            </div>
+        </div>
+        <!-- ini baris ketiga -->
+        <div class="row">
+            <div class="col-md-3">
+                <!-- awal list group -->
+                <h2 align="center">Pengembang Bootstrap</h2>
+                <a class="list-group-item list-group-item-action d-flex align-items-center" href="https://github.com/mdo">
+                    <img src="https://github.com/mdo.png" alt="@mdo" width="32" height="32" class="rounded me-2" loading="lazy">
+                    <span>
+                            <strong>Mark Otto</strong> @mdo
+                        </span>
+                </a>
+
+                <a class="list-group-item list-group-item-action d-flex align-items-center" href="https://github.com/fat">
+                    <img src="https://github.com/fat.png" alt="@fat" width="32" height="32" class="rounded me-2" loading="lazy">
+                    <span>
+                            <strong>Jacob Thornton</strong> @fat
+                        </span>
+                </a>
+
+                <a class="list-group-item list-group-item-action d-flex align-items-center" href="https://github.com/xhmikosr">
+                    <img src="https://github.com/xhmikosr.png" alt="@xhmikosr" width="32" height="32" class="rounded me-2" loading="lazy">
+                    <span>
+                            <strong>XhmikosR</strong> @xhmikosr
+                        </span>
+                </a>
+
+                <a class="list-group-item list-group-item-action d-flex align-items-center" href="https://github.com/geosot">
+                    <img src="https://github.com/geosot.png" alt="@geosot" width="32" height="32" class="rounded me-2" loading="lazy">
+                    <span>
+                            <strong>GeoSot</strong> @geosot
+                        </span>
+                </a>
+
+                <a class="list-group-item list-group-item-action d-flex align-items-center" href="https://github.com/rohit2sharma95">
+                    <img src="https://github.com/rohit2sharma95.png" alt="@rohit2sharma95" width="32" height="32" class="rounded me-2" loading="lazy">
+                    <span>
+                            <strong>Rohit Sharma</strong> @rohit2sharma95
+                        </span>
+                </a>
+
+                <a class="list-group-item list-group-item-action d-flex align-items-center" href="https://github.com/alpadev">
+                    <img src="https://github.com/alpadev.png" alt="@alpadev" width="32" height="32" class="rounded me-2" loading="lazy">
+                    <span>
+                            <strong>alpadev</strong> @alpadev
+                        </span>
+                </a>
+
+                <a class="list-group-item list-group-item-action d-flex align-items-center" href="https://github.com/ffoodd">
+                    <img src="https://github.com/ffoodd.png" alt="@ffoodd" width="32" height="32" class="rounded me-2" loading="lazy">
+                    <span>
+                            <strong>Gaël Poupard</strong> @ffoodd
+                        </span>
+                </a>
+
+                <a class="list-group-item list-group-item-action d-flex align-items-center" href="https://github.com/patrickhlauke">
+                    <img src="https://github.com/patrickhlauke.png" alt="@patrickhlauke" width="32" height="32" class="rounded me-2" loading="lazy">
+                    <span>
+                            <strong>Patrick H. Lauke</strong> @patrickhlauke
+                        </span>
+                </a>
+
+                <a class="list-group-item list-group-item-action d-flex align-items-center" href="https://github.com/martijncuppens">
+                    <img src="https://github.com/martijncuppens.png" alt="@martijncuppens" width="32" height="32" class="rounded me-2" loading="lazy">
+                    <span>
+                            <strong>Martijn Cuppens</strong> @martijncuppens
+                        </span>
+                </a>
+
+                <a class="list-group-item list-group-item-action d-flex align-items-center" href="https://github.com/johann-s">
+                    <img src="https://github.com/johann-s.png" alt="@johann-s" width="32" height="32" class="rounded me-2" loading="lazy">
+                    <span>
+                            <strong>Johann-S</strong> @johann-s
+                        </span>
+                </a>
+
+                <a class="list-group-item list-group-item-action d-flex align-items-center" href="https://github.com/glebm">
+                    <img src="https://github.com/glebm.png" alt="@glebm" width="32" height="32" class="rounded me-2" loading="lazy">
+                    <span>
+                            <strong>Gleb Mazovetskiy</strong> @glebm
+                        </span>
+                </a>
+                <!-- akhir list group -->
+            </div>
+            <div class="col-md-6">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Tabble</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Card</button>
+                    </li>
+                    <hr>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="pills-home" class="tab-pane fade in active">
+                        <!-- ini awal konten -->
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Profile
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <img src="https://drive.google.com/uc?id=1HO3d5_VWvd29iXaaXfB817b-AtbtJlE3" align="left" width="160" hspace="5">
+
+                                        <p align="justify">
+                                            <b>Hello,</b>
+                                        </p>
+                                        <p align="justify">
+                                            Perkenalkan nama saya <b>Muhammad Yusuf Hijriah</b>. Saya berasal dari Lombok, Nusa Tenggara Barat. Saat ini saya sedang menempuh pendidikan di Universitas Bumigora Mataram. Saat ini saya berada di Semester
+                                            6 mengambil Program Studi Ilmu Komputer dengan fokus ke RPL (Rekayasa Perangkat Lunak). Alasan saya mengambil jurusan Komputer adalah karena saat masih kecil saya sudah menyukai dan tertarik tentang dunia teknologi
+                                            sehingga akhirnya saya memutuskan untuk mengambil jurusan ini.
+                                        </p>
+                                        <p align="justify">
+                                            Pada saat Semester 5 kemarin saya mengikuti Program Studi Independen Bersertifikat Kampus Merdeka Batch 1 bersama mitra <a href="https://www.dicoding.com/" target="_blank">Dicoding</a> dengan mengambil Learning
+                                            Path sebagai Pengembang Aplikasi Android dan Multi-platform. Alasan saya mengambil learning path tersebut yaitu karena saya ingin mengembangkan skill coding yang saya miliki saat ini untuk mengembangkan aplikasi
+                                            mobile. Saya telah berhasil menyelesaikan kelas tersebut dan mendapatkan
+                                            <a href="https://drive.google.com/file/d/1kOM-oHQyBIJvL0CHxtz2d5faNGzOddIZ/view?usp=sharing" target="_blank">Sertifikat Kelulusan</a> beserta <a href="https://drive.google.com/file/d/1Cj7L-4Dkw02XvDvBWehC-Fc0a1GRsnPs/view?usp=sharing"
+                                                target="_blank">Surat Keterangan Lulus</a>.</p>
+                                        <p align="justify">
+                                            Pada Semester 6 ini saya mencoba kembali untuk mengikuti program Kampus Merdeka batch ke-2 bersama mitra <a href="https://learn.nurulfikri.com/" target="_blank">NF Computer</a> dengan mengambil learning path
+                                            Fullstack Web Developer karena selain ingin menguasai pemrograman mobile saya juga ingin menguasai pemrograman Web sehingga suatu saat nanti saya bisa menjadi seorang Fullstack Developer. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Hobby & Favorite
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ol type="a">
+                                            <li><b>Hobby</b></li>
+                                            <ul type="square">
+                                                <li>Bermain Game</li>
+                                                <li>Membaca</li>
+                                                <li>Jalan-Jalan</li>
+                                                <li>Mempelajari Hal Baru</li>
+                                            </ul><br>
+                                            <li><b>Menu Favorite</b></li>
+                                            <ol type="i">
+                                                <li><b>Makanan Favorite :</b></li>
+                                                <ul type="circle">
+                                                    <li>Ayam Bakar</li>
+                                                    <li>Nasi Goreng</li>
+                                                    <li>Bakso</li>
+                                                </ul><br>
+                                                <li><b>Minuman Favorite :</b></li>
+                                                <ul type="circle">
+                                                    <li>Jus Jeruk</li>
+                                                    <li>Es Kelapa Muda</li>
+                                                </ul><br>
+                                            </ol>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Social Media
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div>
+                                            <a href="https://www.facebook.com/yusuf.hijriah/" target="_blank" class="fa fa-facebook"></a>
+                                            <a href="https://github.com/yusufhijriah/" target="_blank" class="fa fa-github-square"></a>
+                                            <a href="https://www.linkedin.com/in/muhammad-yusuf-hijriah-b866021b8/" target="_blank" class="fa fa-linkedin"></a>
+                                            <a href="https://twitter.com/hijriah_yusuf/" target="_blank" class="fa fa-twitter"></a>
+                                            <a href="https://www.instagram.com/yusuf_hijriah/" target="_blank" class="fa fa-instagram"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ini akhir konten -->
+                    </div>
+                    <div id="pills-profile" class="tab-pane fade in active">
+                        <table class="table table-hover" border="1" align="center" cellpadding="10" cellspacing="5" width="800" height="300">
+                            <thead>
+                                <th class="table-secondary" colspan="2">RIWAYAT PENDIDIKAN</th>
+                            </thead>
+                            <tr align="center">
+                                <td><b>SEKOLAH</b></td>
+                                <td><b>TAHUN AJARAN</b></td>
+                            </tr>
+                            <tbody align="center">
+                                <tr>
+                                    <td>SDN 04 DASAN GERES</td>
+                                    <td>2007 - 2013</td>
+                                </tr>
+                                <tr>
+                                    <td>SMPN 04 GERUNG</td>
+                                    <td>2013 - 2016</td>
+                                </tr>
+                                <tr>
+                                    <td>SMKN 01 KURIPAN</td>
+                                    <td>2016 - 2019</td>
+                                </tr>
+                                <tr>
+                                    <td>UNIVERSITAS BUMIGORA</td>
+                                    <td>2019 - Sekarang</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="pills-contact" class="tab-pane fade in active">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <div class="card">
+                                    <img src="images/cyberpunk.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="card">
+                                    <img src="images/cyberpunk1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="card">
+                                    <img src="images/cyberpunk2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <!-- awal list group -->
+                <ul class="list-group">
+                    <li class="list-group-item active" aria-current="true" align="center">Materi NF Komputer</li>
+                    <li class="list-group-item">Desain Web (HTML dan CSS)</li>
+                    <li class="list-group-item">Git/Github</li>
+                    <li class="list-group-item">Pemrograman Javascript</li>
+                    <li class="list-group-item">UI/UX</li>
+                    <li class="list-group-item">Pemrograman PHP</li>
+                    <li class="list-group-item">Rest API</li>
+                    <li class="list-group-item">Database MySQL</li>
+                    <li class="list-group-item">Framework Laravel</li>
+                </ul>
+                <!-- akhir list group -->
+            </div>
+        </div>
+        <!-- ini baris keempat -->
+        <div class="row">
+            <div class="col-md-12">
+                <!-- ini awal footer -->
+                <div class="alert alert-primary" role="alert" align="center">
+                    Design By: Muhammad Yusuf Hijriah | Universitas Bumigora
+                </div>
+                <!-- ini akhir footer -->
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</html>
